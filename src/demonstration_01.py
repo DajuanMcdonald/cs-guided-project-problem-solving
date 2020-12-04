@@ -16,5 +16,9 @@ Notes:
 
 
 def last(a, n):
+    if not n:
+        return 'invalid'
     # Your code here
+    return a[-n:]
+    
 
