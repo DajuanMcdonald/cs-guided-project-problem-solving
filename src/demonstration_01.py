@@ -18,6 +18,8 @@ Notes:
 def last(a, n):
     if not n:
         return 'invalid'
+    if n == 0:
+        return []
     # Your code here
     return a[-n:]
     
